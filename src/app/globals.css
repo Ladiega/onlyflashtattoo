@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+  background-color:rgb(220, 220, 220);
+}
+.blue_container{
+  background-color:rgb(81, 192, 255);
+  color: white;
+}
