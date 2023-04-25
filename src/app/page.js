@@ -4,10 +4,38 @@ import Image from 'next/image'
 import Logo from '../../public/logo.png'
 import Crew from '../../public/onlyflashcrew.png'
 
+
+
+
+
 export default function Home() {
-  const nombre = ('nombre');
+  const nombre = [
+    'OnlyFlash',
+    'Catalina',
+    'Neva','Carlos',
+    'Helmuth',
+    'Diego'];
+  const instagram =[
+    '@onlyflashtattoo',
+    '@malandrinatattoo',
+    '@nevatattoos',
+    '@pinzoncarlos777',
+    '@helmuthtattoo',
+    '@ladiegatattoo']
+  const instagramUrl =[
+    '/',
+    'https://www.instagram.com/malandrinatattoo',
+    'https://www.instagram.com/nevatattoos',
+    'https://www.instagram.com/pinzoncarlos777',
+    'https://www.instagram.com/helmuthtattoo',
+    'https://www.instagram.com/ladiegatattoo'
 
+  ]
+  const photos =[
+    {Crew}
+  ]
 
+  
   return (
    <main>
     <section className="container_one bg-white flex justify-center align-middle text-center">
@@ -45,8 +73,8 @@ export default function Home() {
         />
       </div>
       <div className='card_info_container mt-10'>
-        <div className="name "><h1>{nombre}</h1></div>
-        <div className="instagram">instagram</div>
+        <div className="name font-bold"><h1>{nombre[0]}</h1></div>
+        <div className="instagram font-light"><Link className=' text-gray-500' href={instagramUrl[0]}>{instagram[0]}</Link></div>
         <div className="text mr-10 mt-5">
           <p> Semana a semana un gurpo selecto de tatuadores les tendrá un pack de diseños únicos para tatuar, en una sexi hoja de flash, a tentadores precios.
 
@@ -59,13 +87,15 @@ export default function Home() {
         <div className="photo mr-10 mt-10">
           <Image
           src={Crew}
-          alt="crew photo"
+          alt={instagram[0]}
+          
         />
         </div>
         <div className="more mt-10 mb-10"><Link href='/'>saber mas...</Link> </div>
       </div>
     </div>
     </section>
+   
 
    </main>
   )
