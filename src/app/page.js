@@ -91,7 +91,7 @@ export default function Home() {
           
         />
         </div>
-        <div className="more mt-10 mb-10"><Link href='/'>saber mas...</Link> </div>
+        <div className="more mt-10 mb-10"><Link href='/sabermas'>saber mas...</Link> </div>
       </div>
     </div>
     </section>
