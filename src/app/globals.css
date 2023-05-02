@@ -4,13 +4,23 @@
 
 
 
+:root{
+  --babyblue:rgb(81,192,255);
+ 
+}
+
 html{
   background-color:rgb(220, 220, 220);
+ 
 }
 a{
-  color:rgb(81, 192, 255) ;
+  color:var(--babyblue) ;
 }
 .blue_container{
-  background-color:rgb(81, 192, 255);
+  background-color:var(--babyblue);
   color: white;
+}
+
+.footer_container{
+  background-color: var(--babyblue);
 }

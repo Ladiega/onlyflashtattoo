@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Logo from '../../public/logo.png'
 import Crew from '../../public/onlyflashcrew.png'
 
+import Footer from '../../components/footer/index'
 
 
 
@@ -40,9 +41,9 @@ export default function Home() {
    <main>
     <section className="container_one bg-white flex justify-center align-middle text-center">
     <div className="blue_container  flex flex-col justify-center  align-center ">
-      <div className='mt-10'><h1>OnlyFlashTattoo</h1></div>
-      <div className="mt-10 ml-5 mr-5 text-justify">
-        <p>Si queres recibir noticias registra tu correo y apoya a tus tatuadores favoritos.</p>
+      <div className='mt-10'><h1 className='text-6xl'>OnlyFlashTattoo</h1></div>
+      <div className="mt-10 ml-5 mr-5 text-justify ">
+        <p className='text-xl'>Si queres recibir noticias registra tu correo y apoya a tus tatuadores favoritos.</p>
         </div>
       
       <div className="img_container ml-auto mr-auto mb-10 ">
@@ -53,18 +54,19 @@ export default function Home() {
       />
       </div>
     </div>
-    <div className="form_container flex flex-col">      
-      <form action="" className='flex flex-col items-center space-x-6'>
-        <h2 className='text-black mt-10'>Noticias</h2>
-        <label htmlFor="Correo" className='block'>Correo</label>
-        <input type="email" name="email" id="email" 
-    />
-        <button type='submit' >Submit</button>
+    <div className="form_container mt-auto mb-auto ml-auto mr-auto  flex flex-col text-left ">      
+      <form action="" className='ml-2 mr-2'>
+        <h2 className='mb-2'>Mantente actualizado con las noticias novedades de onlyflashtattoo.</h2>
+      <div className='inputandbutton_container flex flex-col text-center'>
+        <input type="email" name="email" placeholder='Correo' className=" rounded-sm broder ring-1 ring-slate-200 ring-inset " id="email"/>
+       <div><button type='submit' className='text-white mt-5 p-1 pl-10 pr-10 rounded-3xl bg-slate-400' >Submit</button></div> 
+      
+      </div>
       </form>
     </div>
     </section>
     <section className="contianer_two bg-blue">
-    <div className="card_container flex bg-white mr-5 ml-5 mt-10 mb-5 rounded-lg ">
+    <div className="card_container flex bg-white shadow-xl mr-5 ml-5 mt-10 mb-5 rounded-lg ">
       <div className='image-container ml-5 mr-1 mt-10'>
         <Image
         src={Logo}
@@ -79,11 +81,9 @@ export default function Home() {
           <p> Semana a semana un gurpo selecto de tatuadores les tendrá un pack de diseños únicos para tatuar, en una sexi hoja de flash, a tentadores precios.
 
         También podrás adquirir una membresía con la que tendrás descuentos. preoridad en citas, y muchas mas para nuestro clientes vip.</p>
+        </div>
 
 
-
-
-</div>
         <div className="photo mr-10 mt-10">
           <Image
           src={Crew}
@@ -95,7 +95,7 @@ export default function Home() {
       </div>
     </div>
     </section>
-   
+   <Footer/>
 
    </main>
   )
