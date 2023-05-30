@@ -3,16 +3,22 @@ import Logo from '../../../public/img/logo3.png'
 import Link from "next/link"
 import Crew from '../../../public/onlyflashcrew.png'
 
+import Neva from '../../../public/img/nevaProfile2.jpeg'
+import Cata from '../../../public/img/cataProfile2.jpeg'
+import Diego from '../../../public/img/diegoProfile2.jpeg'
+import Hache from '../../../public/img/hProfile2.jpeg'
+import Carlos from '../../../public/img/cataProfile2.jpeg'
 
 
 export default function SaberMas(){
 
   const nombre = [
     'OnlyFlash',
-    'Catalina',
-    'Neva','Carlos',
-    'Helmuth',
-    'Diego'];
+    'Catalina Fonseca',
+    'Nelson Neva',
+    'Carlos Pinzon',
+    'Helmuth Sanabria',
+    'Diego Gutierrez'];
   const instagram =[
     '@onlyflashtattoo',
     '@malandrinatattoo',
@@ -34,43 +40,100 @@ export default function SaberMas(){
   return(
     <div>
       <section className="contianer_two bg-blue">
-    <div className="card_container flex bg-white mr-5 ml-5 mt-10 mb-5 rounded-lg ">
+         
+    <div className="card_container flex flex-col bg-white mr-5 ml-5 mt-10 mb-5 rounded-lg ">
+
+
+    <div className=" m-10 text-cyan-500">
+       <h1 className=" uppercase text-5xl text-center font-black">Quienes somos?</h1>
+    </div>
+    
+
+     <div className="img_container flex flex-row">
       <div className='image-container ml-5 mr-1 mt-10'>
         <Image
-        src={Logo}
+        src={Neva}
         alt='logo'
         width={250}
         className="rounded-full"
         />
-      </div>
-      <div className='card_info_container mt-10'>
-        <div className="name font-bold"><h1>{nombre[0]}</h1></div>
-        <div className="instagram font-light"><Link className=' text-gray-500' href={instagramUrl[0]}>{instagram[0]}</Link></div>
-        <div className="text mr-10 mt-5">
-          <p> Muchas veces pensamos en como podemos impactar nuestro entorno de una forma distinta a los que estamos siendo encaminados, sin tener una noción muy clara de este proceso inmediato.  Las redes sociales son un entorno en el cual pasamos mucho tiempo y logran influenciar muchas de nuestras decisiones. 
-
-Es por esto que nace nuestra necesidad de crear OnlyFlashTattoo y usar estos medios para llegar a todos los amantes del tatuaje o ofrecer muchas ideas para ser tatuadas. <br/><br/>
-Onlyflash esta integrado por: <b className="names_intro font-black">Nelson Neva, Carlos Pinzón, Catalina Fonseca, Helmuth Sanabria y Diego Gutierrez . </b>
-
-Semana a semana tendremos un pack de diseños únicos para tatuar, en una sexi hoja de flash, a tentadores precios. También podrás adquirir una membresía con la que tendrás descuentos. prioridad en citas, y muchas mas para nuestro clientes vip.
-
-Muchas gracias por leernos, apoyarnos, preguntarnos y tatuarse… Recuerda que Tattoo es para siempre   !!!.</p>
-
-
-
-
-</div>
-        <div className="photo mr-10 mt-10">
-          <Image
-          src={Crew}
-          alt={instagram[1]}
-          className=" rounded-md"
-          
-        />
+        <div>{nombre[2]}</div>
+        <div>Contacto</div>
+        <div> 
+          <Link href={instagramUrl[2]} target="_blank">
+            {instagram[2]}
+          </Link>         
         </div>
-        <div className="more mt-10 mb-10"><Link href='/'>saber mas sobre cada uno...</Link> </div>
+        
       </div>
+      <div className='image-container ml-5 mr-1 mt-10'>
+        <Image
+        src={Hache}
+        alt='logo'
+        width={250}
+        className="rounded-full"
+        />
+        <div>{nombre[4]}</div>
+        <div>Contacto</div>
+        <div> 
+          <Link href={instagramUrl[4]} target="_blank">
+            {instagram[4]}
+          </Link>         
+        </div>
+      </div> 
+      <div className='image-container ml-5 mr-1 mt-10'>
+        <Image
+        src={Cata}
+        alt='logo'
+        width={250}
+        className="rounded-full"
+        />
+       <div>{nombre[1]}</div>
+        <div>Contacto</div>
+        <div> 
+          <Link href={instagramUrl[1]} target="_blank">
+            {instagram[1]}
+          </Link>         
+        </div>
+      </div>
+      <div className='image-container ml-5 mr-1 mt-10'>
+        <Image
+        src={Carlos}
+        alt='logo'
+        width={250}
+        className="rounded-full"
+        />
+      <div>{nombre[3]}</div>
+        <div>Contacto</div>
+        <div> 
+          <Link href={instagramUrl[3]} target="_blank">
+            {instagram[3]}
+          </Link>         
+        </div>
+      </div>
+      <div className='image-container ml-5 mr-1 mt-10'>
+        <Image
+        src={Diego}
+        alt='logo'
+        width={250}
+        className="rounded-full"
+        />
+        <div>{nombre[5]}</div>
+        <div>Contacto</div>
+        <div> 
+          <Link href={instagramUrl[5]} target="_blank">
+            {instagram[5]}
+          </Link>         
+        </div>
+      </div>
+      </div>
+     
+     
+    <div><Link href='/'>Home</Link></div>
+
     </div>
+
+    
     </section>
    
     </div>
