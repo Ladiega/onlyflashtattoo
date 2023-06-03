@@ -41,9 +41,9 @@ export default function Home() {
    <main>
     <section className="container_one bg-white flex justify-center align-middle text-center">
     <div className="blue_container  flex flex-col justify-center  align-center ">
-      <div className='mt-10'><h1 className='text-6xl'>OnlyFlashTattoo</h1></div>
+      <div className='mt-10'><h1 className=' sm:text-6xl text-2xl font-extrabold'>OnlyFlashTattoo</h1></div>
       <div className="mt-10 ml-5 mr-5 text-justify ">
-        <p className='text-xl'>Si queres recibir noticias registra tu correo y apoya a tus tatuadores favoritos.</p>
+        <p className='text-xm'>Si queres recibir noticias registra tu correo y apoya a tus tatuadores favoritos.</p>
         </div>
       
       <div className="img_container ml-auto mr-auto mb-10 ">
@@ -78,7 +78,7 @@ export default function Home() {
         <div className="name font-bold"><h1>{nombre[0]}</h1></div>
         <div className="instagram font-light"><Link className=' text-gray-500' href={instagramUrl[0]}>{instagram[0]}</Link></div>
         <div className="text mr-10 mt-5">
-          <p> Semana a semana un gurpo selecto de tatuadores les tendrá un pack de diseños únicos para tatuar, en una sexi hoja de flash, a tentadores precios.
+          <p className=' text-justify'> Semana a semana un gurpo selecto de tatuadores les tendrá un pack de diseños únicos para tatuar, en una sexi hoja de flash, a tentadores precios.
 
         También podrás adquirir una membresía con la que tendrás descuentos. preoridad en citas, y muchas mas para nuestro clientes vip.</p>
         </div>
