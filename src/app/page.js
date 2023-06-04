@@ -41,7 +41,7 @@ export default function Home() {
    <main>
     <section className="container_one bg-white flex justify-center align-middle text-center">
     <div className="blue_container  flex flex-col justify-center  align-center ">
-      <div className='mt-10'><h1 className=' sm:text-6xl text-2xl font-extrabold'>OnlyFlashTattoo</h1></div>
+      <div className='mt-10'><h1 className=' sm:text-5xl text-2xl font-extrabold'>OnlyFlashTattoo</h1></div>
       <div className="mt-10 ml-5 mr-5 text-justify ">
         <p className='text-xm'>Si queres recibir noticias registra tu correo y apoya a tus tatuadores favoritos.</p>
         </div>

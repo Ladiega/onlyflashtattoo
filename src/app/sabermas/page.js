@@ -15,9 +15,9 @@ export default function SaberMas(){
     'OnlyFlash',
     'Catalina Fonseca',
     'Nelson Neva',
-    'Carlos Pinzon',
+    'Carlos Pinzón',
     'Helmuth Sanabria',
-    'Diego Gutierrez'];
+    'Diego Gutiérrez'];
   const instagram =[
     '@onlyflashtattoo',
     '@malandrinatattoo',
@@ -44,7 +44,7 @@ export default function SaberMas(){
 
 
     <div className=" m-10 text-cyan-300">
-       <h1 className=" uppercase text-5xl text-center font-black">Quienes somos?</h1>
+       <h1 className=" uppercase text-5xl text-center font-black">¿Quiénes somos?</h1>
     </div>
     
 
