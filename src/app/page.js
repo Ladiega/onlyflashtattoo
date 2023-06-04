@@ -56,7 +56,7 @@ export default function Home() {
     </div>
     <div className="form_container mt-auto mb-auto ml-auto mr-auto  flex flex-col text-left ">      
       <form action="" className='ml-2 mr-2'>
-        <h2 className='mb-2'>Mantente actualizado con las noticias novedades de onlyflashtattoo.</h2>
+        <h2 className='mb-2'>Mantente actualizado con las noticias y novedades de OnlyFlashTattoo.</h2>
       <div className='inputandbutton_container flex flex-col text-center'>
         <input type="email" name="email" placeholder='Correo' className=" rounded-sm broder ring-1 ring-slate-200 ring-inset " id="email"/>
        <div><button type='submit' className='text-white mt-5 p-1 pl-10 pr-10 rounded-3xl bg-slate-400' >Submit</button></div> 
@@ -78,9 +78,9 @@ export default function Home() {
         <div className="name font-bold"><h1>{nombre[0]}</h1></div>
         <div className="instagram font-light"><Link className=' text-gray-500' href={instagramUrl[0]}>{instagram[0]}</Link></div>
         <div className="text mr-10 mt-5">
-          <p className=' text-justify'> Semana a semana un gurpo selecto de tatuadores les tendrá un pack de diseños únicos para tatuar, en una sexi hoja de flash, a tentadores precios.
+          <p className=' text-justify'> Semana a semana un grupo selecto de tatuadores tendrá un pack de diseños únicos para que te tatues, en una sexy hoja de flash, a tentadores precios.
 
-        También podrás adquirir una membresía con la que tendrás descuentos. preoridad en citas, y muchas mas para nuestro clientes vip.</p>
+        También podrás adquirir una membresía con la que tendrás: descuentos, prioridad en citas, y otras sorpresas para nuestros clientes VIP.</p>
         </div>
 
 
