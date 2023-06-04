@@ -78,7 +78,7 @@ export default function Home() {
         <div className="name font-bold"><h1>{nombre[0]}</h1></div>
         <div className="instagram font-light"><Link className=' text-gray-500' href={instagramUrl[0]}>{instagram[0]}</Link></div>
         <div className="text mr-10 mt-5">
-          <p className=' text-justify'> Semana a semana un grupo selecto de tatuadores tendrá un pack de diseños únicos para que te tatues, en una sexy hoja de flash, a tentadores precios.
+          <p className=' text-justify'> Semana a semana un grupo selecto de tatuadores tendrá un pack de diseños únicos para que te tatúes, en una sexy hoja de flash, a tentadores precios.
 
         También podrás adquirir una membresía con la que tendrás: descuentos, prioridad en citas, y otras sorpresas para nuestros clientes VIP.</p>
         </div>
