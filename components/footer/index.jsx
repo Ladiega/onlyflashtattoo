@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import instaLogo from '../../public/img/instagramLogo.svg'
 
+
 export default function Footer(){
   return(
     <div>
@@ -19,7 +20,7 @@ export default function Footer(){
                   src={instaLogo}
                   alt="instagram"
                   width={30}
-                  className='instagramLogo rounded-md'
+                  className='instagramLogo rounded-full'
                   />
               </Link>
               <span className='foote_line w-1 h-1'></span>
