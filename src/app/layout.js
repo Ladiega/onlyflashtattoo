@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter, Roboto } from 'next/font/google'
-
+import Footer from './components/footer'
 const inter = Inter({ subsets: ['latin'] })
 const roboto = Roboto({
   weight:'400',
@@ -15,10 +15,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    
     <html lang="en">
-      <body className={roboto.className}>{children}
       
+      <body className={roboto.className}>{children}
+      <Footer/>
       </body>
+     
     </html>
+
+    
   )
 }

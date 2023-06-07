@@ -4,10 +4,6 @@ import Image from 'next/image'
 import Logo from '../../public/logo.png'
 import Crew from '../../public/onlyflashcrew.png'
 
-import Footer from './components/footer'
-
-
-
 
 export default function Home() {
   const nombre = [
@@ -95,7 +91,7 @@ export default function Home() {
       </div>
     </div>
     </section>
-   <Footer/>
+   
 
    </main>
   )
