@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Logo from '../../public/logo.png'
 import Crew from '../../public/onlyflashcrew.png'
 
-import Footer from '../../components/footer/index'
+import Footer from './components/footer/index'
 
 
 

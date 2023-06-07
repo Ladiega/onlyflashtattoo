@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import instaLogo from '../../public/img/instagramLogo.svg'
+import instaLogo from '../../../../public/img/instagramLogo.svg'
 
 
 export default function Footer(){

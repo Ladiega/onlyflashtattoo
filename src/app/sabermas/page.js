@@ -7,7 +7,7 @@ import Diego from '../../../public/img/diegoProfile2.jpeg'
 import Hache from '../../../public/img/hProfile2.jpeg'
 import Carlos from '../../../public/img/cataProfile2.jpeg'
 
-import Footer from "../../../components/footer"
+import Footer from "./components/footer"
 
 export default function SaberMas(){
 
