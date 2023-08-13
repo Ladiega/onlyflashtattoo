@@ -5,7 +5,7 @@ import Neva from '../../../public/img/nevaProfile2.jpeg'
 import Cata from '../../../public/img/cataProfile2.jpeg'
 import Diego from '../../../public/img/diegoProfile2.jpeg'
 import Hache from '../../../public/img/hProfile2.jpeg'
-import Carlos from '../../../public/img/cataProfile2.jpeg'
+import Carlos from '../../../public/img/carlosProfile2.jpeg'
 
 
 

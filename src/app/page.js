@@ -4,6 +4,18 @@ import Image from 'next/image'
 import Logo from '../../public/logo.png'
 import Crew from '../../public/onlyflashcrew.png'
 
+import Form from './components/form'
+
+//<form action="" className='ml-2 mr-2'>
+//<h2 className='mb-2'>Mantente actualizado con las noticias y novedades de OnlyFlashTattoo.</h2>
+//<div className='inputandbutton_container flex flex-col text-center'>
+//<input type="email" name="email" placeholder='Correo' className=" rounded-sm broder ring-1 ring-slate-200 ring-inset " id="email"/>
+//<div><button type='submit' className='text-white mt-5 p-1 pl-10 pr-10 rounded-3xl bg-slate-400' >Submit</button></div> 
+
+//</div>
+//</form>
+
+
 
 export default function Home() {
   const nombre = [
@@ -51,14 +63,7 @@ export default function Home() {
       </div>
     </div>
     <div className="form_container mt-auto mb-auto ml-auto mr-auto  flex flex-col text-left ">      
-      <form action="" className='ml-2 mr-2'>
-        <h2 className='mb-2'>Mantente actualizado con las noticias y novedades de OnlyFlashTattoo.</h2>
-      <div className='inputandbutton_container flex flex-col text-center'>
-        <input type="email" name="email" placeholder='Correo' className=" rounded-sm broder ring-1 ring-slate-200 ring-inset " id="email"/>
-       <div><button type='submit' className='text-white mt-5 p-1 pl-10 pr-10 rounded-3xl bg-slate-400' >Submit</button></div> 
-      
-      </div>
-      </form>
+     <Form/>
     </div>
     </section>
     <section className="contianer_two bg-blue">
@@ -84,6 +89,7 @@ export default function Home() {
           <Image
           src={Crew}
           alt={instagram[0]}
+                
           
         />
         </div>
