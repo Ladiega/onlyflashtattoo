@@ -28,13 +28,13 @@ const inputRef = useRef(null);
 
   return (
     <div>
+      
+    <form onSubmit={subscribeUser} className="flex flex-col gap-3 text-center">
       <Image
         src={logoGrisAzul}
         alt="logo onlyflash"
         width={200}
       />
-    <form onSubmit={subscribeUser} className="flex flex-col gap-3 text-center">
-      
 
       <input
         type="email"
@@ -45,7 +45,7 @@ const inputRef = useRef(null);
         required
         autoCapitalize="off"
         autoCorrect="off"
-        className=' text-pink-500'
+        
       />
 
       <button type="submit" value="" name="subscribe" className=' bg-slate-700 text-yellow-50 p-2 rounded-md mx-1 '>
