@@ -1,6 +1,8 @@
 'use client'
 
 import { useRef } from 'react';
+import Image from 'next/image';
+import logoGrisAzul from '../../../../public/img/logogrisazul.svg'
 
 export default function Form() {
 
@@ -25,6 +27,12 @@ const inputRef = useRef(null);
   };
 
   return (
+    <div>
+      <Image
+        src={logoGrisAzul}
+        alt="logo onlyflash"
+        width={200}
+      />
     <form onSubmit={subscribeUser} className="flex flex-col gap-3 text-center">
       
 
@@ -45,6 +53,6 @@ const inputRef = useRef(null);
       </button> 
       
     </form>
-    
+    </div>
   );
 }

@@ -1,8 +1,12 @@
 import './globals.css'
-import { Inter, Roboto } from 'next/font/google'
+import { Montserrat, Yellowtail } from 'next/font/google'
 import Footer from './components/footer'
-const inter = Inter({ subsets: ['latin'] })
-const roboto = Roboto({
+const montserrat = Montserrat({
+  
+  subsets: ['latin']
+  
+})
+const yellowtail = Yellowtail({
   weight:'400',
   subsets:['latin']
 })
@@ -18,7 +22,7 @@ export default function RootLayout({ children }) {
     
     <html lang="en">
       
-      <body className={roboto.className}>{children}
+      <body className={montserrat.className}>{children}
       <Footer/>
       </body>
      

@@ -4,20 +4,12 @@
 
 
 
-:root{
-  --babyblue:rgb(81,192,255);
- 
+:root {
+  --babyblue: rgb(81, 192, 255);
+
 }
 
-html{
-  background-color:rgb(220, 220, 220);
- 
-}
-a{
-  color:var(--babyblue) ;
-}
-.blue_container{
-  background-color:var(--babyblue);
-  color: white;
-}
+html {
+  background-color: rgb(220, 220, 220);
 
+}

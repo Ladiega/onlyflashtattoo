@@ -1,20 +1,17 @@
 import Link from 'next/link'
-
 import Image from 'next/image'
+import onlyFlash from '../../public/img/onlyFlash.svg'
+import logoGrisAzul from '../../public/img/logogrisazul.svg'
 import Logo from '../../public/logo.png'
 import Crew from '../../public/onlyflashcrew.png'
 
 import Form from './components/form'
+import { Yellowtail } from 'next/font/google'
 
-//<form action="" className='ml-2 mr-2'>
-//<h2 className='mb-2'>Mantente actualizado con las noticias y novedades de OnlyFlashTattoo.</h2>
-//<div className='inputandbutton_container flex flex-col text-center'>
-//<input type="email" name="email" placeholder='Correo' className=" rounded-sm broder ring-1 ring-slate-200 ring-inset " id="email"/>
-//<div><button type='submit' className='text-white mt-5 p-1 pl-10 pr-10 rounded-3xl bg-slate-400' >Submit</button></div> 
-
-//</div>
-//</form>
-
+const yellowtail = Yellowtail({
+  subsets: ['latin'],
+  weight: '400'
+});
 
 
 export default function Home() {
@@ -48,11 +45,17 @@ export default function Home() {
   return (
    <main>
     <section className="container_one bg-white flex justify-center align-middle text-center">
-    <div className="blue_container  flex flex-col justify-center  align-center ">
-      <div className='mt-10'><h1 className=' sm:text-5xl text-2xl font-extrabold'>OnlyFlashTattoo</h1></div>
+    <div className="blue_container bg-sky-400 flex flex-col align-middle justify-center ">
+          <div className=' mx-8'>
+            <Image
+              src={onlyFlash}
+              alt="onlyflash logo"
+              width={500}
+            />
+      </div>
       <div className="mt-10 ml-5 mr-5 text-justify ">
         <p className='text-xm'>Si queres recibir noticias registra tu correo y apoya a tus tatuadores favoritos.</p>
-        </div>
+      </div>
       
       <div className="img_container ml-auto mr-auto mb-10 ">
       <Image
