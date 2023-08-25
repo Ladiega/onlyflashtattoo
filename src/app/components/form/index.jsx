@@ -48,7 +48,7 @@ const inputRef = useRef(null);
         
       />
 
-      <button type="submit" value="" name="subscribe" className=' bg-slate-700 text-yellow-50 p-2 rounded-md mx-1 '>
+      <button type="submit" value="" name="subscribe" className=' bg-slate-700 text-yellow-50 p-2 rounded-md mx-1 mb-4 '>
         Subscribe
       </button> 
       
