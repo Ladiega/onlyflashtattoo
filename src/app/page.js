@@ -65,7 +65,10 @@ export default function Home() {
      <Form />
     </div>
     </section>
-    <section className="">
+      <section className="">
+        <div className='text-center mt-8 text-lg font-bold'>
+          <h1 className={yellowtail.className} >NOTICIAS</h1>
+        </div>
     <div className="card_container flex bg-white shadow-xl mr-5 ml-5 mt-10 mb-5 rounded-lg ">
       <div className='image-container ml-5 mr-1 mt-10'>
         <Image
