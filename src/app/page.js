@@ -115,13 +115,18 @@ export default function Home() {
             <Image
               src={Logo}
               alt='logo'
-              width={150}
+              width={100}
   
             />
           </div>
           <div className='card_info_container mt-10'>
-            <div className="font-bold text-slate-700"><h1>{nombre[0]}</h1></div>
-            <div className="instagram font-light text-gray-500"><Link className={yellowtail.className} href={instagramUrl[0]}>{instagram[0]}</Link></div>
+            <div className="font-bold text-slate-700">
+              <h1>{nombre[0]}</h1>
+            </div>
+            <div className="instagram font-light text-gray-500">
+              <Link className={yellowtail.className} href={instagramUrl[0]}>{instagram[0]}
+              </Link>
+            </div>
             <div className="text mr-10 mt-5">
               <p className=''> Cada trimeste estaremos como una celebración destacada en el calendario de eventos culturales y artísticos. Te ofrecemos una experiencia inmersiva en la cultura del tatuaje, podras encontrar una variedad de diseños relacionados con este arte milenario.</p>
               <p>En esta ocacion selebramos nuestro primer evento en el bar Jackass en la ciudad de Bogotá.</p>
@@ -131,11 +136,14 @@ export default function Home() {
             <div className="photo mr-10 mt-10 ">
               <Image
                 src={onlyFlashEvento}
+                width={500}
                 alt={instagram[0]}
                 className="rounded-lg"
               />
             </div>
-            <div className="more mt-10 mb-10 hover:text-sky-400"><Link href='/sabermas'>saber mas...</Link> </div>
+            <div className="more mt-10 mb-10 hover:text-sky-400">
+              <Link href='/sabermas'>saber mas...</Link>
+            </div>
           </div>
         </div>
 
