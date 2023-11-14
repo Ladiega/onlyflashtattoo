@@ -19,25 +19,35 @@ export default function Home() {
   const nombre = [
     'OnlyFlash',
     'Catalina',
-    'Neva','Carlos',
+    'Neva',
+    'Carlos',
     'Helmuth',
-    'Diego'];
-  const instagram =[
+    'Diego',
+    'Christian',
+    'Laura'
+  ];
+  const instagram = [
     '@onlyflashtattoo',
     '@malandrinatattoo',
     '@nevatattoos',
     '@pinzoncarlos777',
     '@helmuthtattoo',
-    '@ladiegatattoo']
-  const instagramUrl =[
+    '@ladiegatattoo',
+    '@tintayhierbas_',
+    '@laura.moth'
+  ];
+
+  const instagramUrl = [
     '/',
     'https://www.instagram.com/malandrinatattoo',
     'https://www.instagram.com/nevatattoos',
     'https://www.instagram.com/pinzoncarlos777',
     'https://www.instagram.com/helmuthtattoo',
-    'https://www.instagram.com/ladiegatattoo'
+    'https://www.instagram.com/ladiegatattoo',
+    'https://www.instagram.com/tintayhierbas_',
+    'https://www.instagram.com/laura.moth/'
+  ];
 
-  ]
   const photos =[
     {Crew}
   ]
