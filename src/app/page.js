@@ -65,7 +65,7 @@ export default function Home() {
             />
       </div>
           <div className="mt-10 mx-8 mb-48 flex flex-col items-center  text-white  ">
-            <h1 className=''>COMUNIDAD OFICIO Y CULTURA </h1>
+            <h1 className=''>COMUNIDAD, OFICIO Y CULTURA </h1>
         <p className=' text-3xl w-80'>Muchos diseños unicos por tus tatuadores favoritos.</p>
       </div>
       

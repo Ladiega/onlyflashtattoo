@@ -80,10 +80,10 @@ export default function SaberMas(){
                     />
                 </Link>         
               </div>
-        <div>{nombre[2]}</div>
+              <div className={ `text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[2]}</div>
               <div className=" font-extrabold">Contacto</div>
           <div className="text-slate-600"> 
-                <Link href={instagramUrl[2]} target="_blank" className={yellowtail.className}>
+                <Link href={instagramUrl[2]} target="_blank" >
                   {instagram[2]}
                 </Link>         
           </div>
@@ -100,7 +100,7 @@ export default function SaberMas(){
                   />
                 </Link>   
              </div>
-        <div>{nombre[4]}</div>
+              <div className={`text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[4]}</div>
               <div className=" font-extrabold">Contacto</div>
          <div className="text-slate-600"> 
                 <Link href={instagramUrl[4]} target="_blank" className={yellowtail.className}>
@@ -120,7 +120,7 @@ export default function SaberMas(){
                 </Link>           
         </div>
 
-       <div>{nombre[1]}</div>
+              <div className={`text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[1]}</div>
               <div className=" font-extrabold">Contacto</div>
          <div className="text-slate-600"> 
             <Link href={instagramUrl[1]} target="_blank" className={yellowtail.className}>
@@ -139,7 +139,7 @@ export default function SaberMas(){
                   />
                 </Link>  
               </div>
-      <div>{nombre[3]}</div>
+              <div className={`text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[3]}</div>
               <div className=" font-extrabold">Contacto</div>
         <div className="text-slate-600"> 
                 <Link href={instagramUrl[3]} target="_blank" className={yellowtail.className}>
@@ -158,7 +158,7 @@ export default function SaberMas(){
                   />
                 </Link>   
               </div>
-        <div>{nombre[5]}</div>
+              <div className={`text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[5]}</div>
               <div className=" font-extrabold">Contacto</div>
         <div className=" text-slate-600"> 
                 <Link href={instagramUrl[5]} target="_blank" className={yellowtail.className}>
@@ -178,7 +178,7 @@ export default function SaberMas(){
                   />
                 </Link>
               </div>
-              <div>{nombre[7]}</div>
+              <div className={`text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[7]}</div>
               <div className=" font-extrabold">Contacto</div>
               <div className=" text-slate-600">
                 <Link href={instagramUrl[7]} target="_blank" className={yellowtail.className}>
@@ -198,7 +198,7 @@ export default function SaberMas(){
                   />
                 </Link>
               </div>
-              <div>{nombre[6]}</div>
+              <div className={`text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[6]}</div>
               <div className=" font-extrabold">Contacto</div>
               <div className=" text-slate-600">
                 <Link href={instagramUrl[6]} target="_blank" className={yellowtail.className}>
@@ -218,7 +218,7 @@ export default function SaberMas(){
                   />
                 </Link>
               </div>
-              <div>{nombre[0]}</div>
+              <div className={` text-2xl text-cyan-400 ${yellowtail.className}`}>{nombre[0]}</div>
               <div className=" font-extrabold">Contacto</div>
               <div className=" text-slate-600">
                 <Link href={instagramUrl[0]} target="_blank" className={yellowtail.className}>
